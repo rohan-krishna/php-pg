@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+	<title>Form Design Testing</title>
+	<style>
+		.body-wrapper { width: 75%; margin:0 auto; padding: 1.62em; }
+		form label {
+			padding: 15px;
+			border-left: 1px solid rgba(29,198,100,0.5);
+			border-top: 1px solid rgba(29,198,100,0.5);
+			border-bottom: 1px solid rgba(29,198,100,0.5);
+			background: rgba(29,198,100,1.0);
+			color: #ddd;
+			border-radius: 4px 0 0 4px;
+			margin:0;
+			font-weight: bold;
+		}
+		form input {
+			padding: 15px;
+			border: 0;
+			border-top: 1px solid rgba(19,193,135,0.5);
+			border-right: 1px solid rgba(19,193,135,0.5);
+			border-bottom: 1px solid rgba(19,193,135,0.5);
+			margin: 0;
+			margin-left: -4px;
+			border-radius: 0 4px 4px 0;
+			outline: none;
+			font-size: 15px;
+			background: rgba(19,193,135,0.8);
+			letter-spacing: 2px;
+			font-weight: 800;
+			color: #333;
+			-webkit-font-smoothing: antialiased;
+		}
+		input:first-letter {
+			text-transform: uppercase;
+		}
+	</style>
+</head>
+<body>
+	<div class="body-wrapper">
+		<form>
+			<label>Label</label>
+			<input type="text" class="text-form" autocapitalize="on">
+		</form>
+	</div>
+</body>
+</html>
